@@ -13,6 +13,14 @@
 		A3C020502480B05E00C61CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C0204E2480B05E00C61CCE /* Main.storyboard */; };
 		A3C020522480B05F00C61CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C020512480B05F00C61CCE /* Assets.xcassets */; };
 		A3C020552480B05F00C61CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C020532480B05F00C61CCE /* LaunchScreen.storyboard */; };
+		A3C0205E2480DE6400C61CCE /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0205D2480DE6400C61CCE /* CanvasViewController.swift */; };
+		A3C020602480DE8800C61CCE /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0205F2480DE8800C61CCE /* PaletteViewController.swift */; };
+		A3C020622480DEAC00C61CCE /* ThumbnailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C020612480DEAC00C61CCE /* ThumbnailViewController.swift */; };
+		A3C020642480DED400C61CCE /* CoordinatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C020632480DED400C61CCE /* CoordinatingViewController.swift */; };
+		A3C020672480F43600C61CCE /* Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C020662480F43600C61CCE /* Mark.swift */; };
+		A3C020692480F45F00C61CCE /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C020682480F45F00C61CCE /* Vertex.swift */; };
+		A3C0206B2480F48900C61CCE /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0206A2480F48900C61CCE /* Dot.swift */; };
+		A3C0206D2480F4CD00C61CCE /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0206C2480F4CD00C61CCE /* Stroke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		A3C020512480B05F00C61CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3C020542480B05F00C61CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3C020562480B05F00C61CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C0205D2480DE6400C61CCE /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		A3C0205F2480DE8800C61CCE /* PaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
+		A3C020612480DEAC00C61CCE /* ThumbnailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailViewController.swift; sourceTree = "<group>"; };
+		A3C020632480DED400C61CCE /* CoordinatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatingViewController.swift; sourceTree = "<group>"; };
+		A3C020662480F43600C61CCE /* Mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mark.swift; sourceTree = "<group>"; };
+		A3C020682480F45F00C61CCE /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		A3C0206A2480F48900C61CCE /* Dot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
+		A3C0206C2480F4CD00C61CCE /* Stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +75,36 @@
 				A3C020482480B05E00C61CCE /* AppDelegate.swift */,
 				A3C0204A2480B05E00C61CCE /* SceneDelegate.swift */,
 				A3C0204C2480B05E00C61CCE /* ViewController.swift */,
+				A3C020652480F24000C61CCE /* Mark */,
+				A3C0205C2480DE4700C61CCE /* Controller */,
 				A3C0204E2480B05E00C61CCE /* Main.storyboard */,
 				A3C020512480B05F00C61CCE /* Assets.xcassets */,
 				A3C020532480B05F00C61CCE /* LaunchScreen.storyboard */,
 				A3C020562480B05F00C61CCE /* Info.plist */,
 			);
 			path = SwiftDesignModel;
+			sourceTree = "<group>";
+		};
+		A3C0205C2480DE4700C61CCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A3C0205D2480DE6400C61CCE /* CanvasViewController.swift */,
+				A3C0205F2480DE8800C61CCE /* PaletteViewController.swift */,
+				A3C020612480DEAC00C61CCE /* ThumbnailViewController.swift */,
+				A3C020632480DED400C61CCE /* CoordinatingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A3C020652480F24000C61CCE /* Mark */ = {
+			isa = PBXGroup;
+			children = (
+				A3C020662480F43600C61CCE /* Mark.swift */,
+				A3C020682480F45F00C61CCE /* Vertex.swift */,
+				A3C0206A2480F48900C61CCE /* Dot.swift */,
+				A3C0206C2480F4CD00C61CCE /* Stroke.swift */,
+			);
+			path = Mark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +178,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C020672480F43600C61CCE /* Mark.swift in Sources */,
+				A3C0205E2480DE6400C61CCE /* CanvasViewController.swift in Sources */,
+				A3C020692480F45F00C61CCE /* Vertex.swift in Sources */,
+				A3C0206B2480F48900C61CCE /* Dot.swift in Sources */,
+				A3C0206D2480F4CD00C61CCE /* Stroke.swift in Sources */,
+				A3C020602480DE8800C61CCE /* PaletteViewController.swift in Sources */,
 				A3C0204D2480B05E00C61CCE /* ViewController.swift in Sources */,
+				A3C020642480DED400C61CCE /* CoordinatingViewController.swift in Sources */,
 				A3C020492480B05E00C61CCE /* AppDelegate.swift in Sources */,
 				A3C0204B2480B05E00C61CCE /* SceneDelegate.swift in Sources */,
+				A3C020622480DEAC00C61CCE /* ThumbnailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
