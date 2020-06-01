@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-class Stroke: Mark {
-    
+class Stroke: NSObject,Mark,NSCopying {
+   
     var color: UIColor = UIColor.white
     var size: CGFloat = 0
     
@@ -66,6 +66,9 @@ class Stroke: Mark {
         }
     }
     
+    required override init() {
+         
+    }
     
          
     
@@ -90,4 +93,15 @@ class Stroke: Mark {
         context.strokePath()
     }
     
+    func copy(with zone: NSZone? = nil) -> Any {
+        
+        let ver = type(of: self).init()
+        ver.color = self.color.mutableCopy() as! UIColor
+        ver.size = self.size
+        for mark in children_ {
+            let childCopy = mark.copy()
+            ver.addMark(mark: childCopy as! Mark)
+        }
+        return ver;
+    }
 }

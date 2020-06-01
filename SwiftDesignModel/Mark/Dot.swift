@@ -11,6 +11,15 @@ import UIKit
 
 class Dot: Vertex {
     
+    var color: UIColor {
+        set{ }
+        get { UIColor.white }
+    }
+    var size: CGFloat {
+        set { }
+        get { 0.0 }
+    }
+             
     override func drawWithContext(context: CGContext) {
         
         let x = self.location.x
@@ -20,5 +29,14 @@ class Dot: Vertex {
          
         context.setFillColor(self.color.cgColor)
         context.fillEllipse(in: frame)
+    }
+    
+    override func copy(with zone: NSZone? = nil) -> Any {
+        
+        // 子类调用返回的时候需要是子类
+        let ver = type(of: self).init(loaction: self.location)
+        ver.color = self.color.mutableCopy() as! UIColor
+        ver.size = self.size
+        return ver;
     }
 }

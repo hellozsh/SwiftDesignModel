@@ -17,7 +17,7 @@
 import Foundation
 import UIKit
 
-protocol Mark {
+protocol Mark: NSObject {
     
     //  读写属性，并不是说是计算属性,实现可以存储可以计算
     var color: UIColor { get set }
@@ -53,29 +53,30 @@ protocol Mark {
     /// - Parameter context: 上下文
     ///
     func drawWithContext(context: CGContext);
+   
     
 }
 
-//extension Mark {
-//
-//    var color: UIColor { get { UIColor.white } set { }}
-//    var size: CGFloat { get { 0 } set { } }
-//    var location: CGPoint { get { CGPoint.zero } set { }}
-//
-//    var count: Int { get { 0 } }
-//    var lastChild: Mark? { get { nil } }
-//
-//    func addMark(mark: Mark) -> Void {
-//
-//    }
-//
-//    func removeMark(mark: Mark) -> Void {
-//
-//
-//    }
-//
-//    func childMarkAtIndex(index: Int) -> Mark? {
-//
-//        return nil
-//    }
-//}
+extension Mark {
+
+    var color: UIColor { get { UIColor.white } set { }}
+    var size: CGFloat { get { 0 } set { } }
+    var location: CGPoint { get { CGPoint.zero } set { }}
+
+    var count: Int { get { 0 } }
+    var lastChild: Mark? { get { nil } }
+
+    func addMark(mark: Mark) -> Void {
+
+    }
+
+    func removeMark(mark: Mark) -> Void {
+
+
+    }
+
+    func childMarkAtIndex(index: Int) -> Mark? {
+
+        return nil
+    }
+}
