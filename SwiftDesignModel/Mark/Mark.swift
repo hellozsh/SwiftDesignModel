@@ -56,26 +56,26 @@ protocol Mark {
     
 }
 
-extension Mark {
-
-    var color: UIColor { get { UIColor.white } set { }}
-    var size: CGFloat { get { 0 } set { } }
-    var location: CGPoint { get { CGPoint.zero } set { }}
-
-    var count: Int { get { 0 } }
-    var lastChild: Mark? { get { nil } }
-
-    func addMark(mark: Mark) -> Void {
-
-    }
-
-    func removeMark(mark: Mark) -> Void {
-
-
-    }
-
-    func childMarkAtIndex(index: Int) -> Mark? {
-
-        return nil
-    }
-}
+//extension Mark {
+//
+//    var color: UIColor { get { UIColor.white } set { }}
+//    var size: CGFloat { get { 0 } set { } }
+//    var location: CGPoint { get { CGPoint.zero } set { }}
+//
+//    var count: Int { get { 0 } }
+//    var lastChild: Mark? { get { nil } }
+//
+//    func addMark(mark: Mark) -> Void {
+//
+//    }
+//
+//    func removeMark(mark: Mark) -> Void {
+//
+//
+//    }
+//
+//    func childMarkAtIndex(index: Int) -> Mark? {
+//
+//        return nil
+//    }
+//}

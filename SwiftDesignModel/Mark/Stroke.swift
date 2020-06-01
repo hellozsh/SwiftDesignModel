@@ -26,8 +26,18 @@ class Stroke: Mark {
         }
     }
     
-    var count: Int = 0
-    var lastChild: Mark? = nil
+    var count: Int {
+        get {
+            children_.count
+        }
+    }
+    
+    var lastChild: Mark? {
+        
+        get {
+            children_.last
+        }
+    }
     
     var children_ : Array<Mark> = []
     
@@ -47,6 +57,16 @@ class Stroke: Mark {
             }
         }
     }
+    
+    func childMarkAtIndex(index: Int) -> Mark? {
+        if index >= children_.count {
+            return nil
+        } else {
+            return children_[index]
+        }
+    }
+    
+    
          
     
     /// 绘图

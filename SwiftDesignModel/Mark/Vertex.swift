@@ -11,6 +11,51 @@ import UIKit
 
 class Vertex: Mark {
     
+    
+    
+    var color: UIColor {
+        set{
+            
+        }
+        get {
+            UIColor.white
+        }
+    }
+    
+    var size: CGFloat {
+        set {
+            
+        }
+        get {
+            0.0
+        }
+    }
+    
+    var location: CGPoint
+    
+    var count: Int { 0 }
+    
+    var lastChild: Mark? { nil }
+    
+    func addMark(mark: Mark) { }
+    
+    func removeMark(mark: Mark) { }
+    
+    func childMarkAtIndex(index: Int) -> Mark? { nil }
+    
+    init(loaction: CGPoint) {
+        
+        self.location = loaction
+    }
+    
+//    convenience init(loaction: CGPoint) {
+//
+//
+//        self.init()
+//
+//    }
+//
+     
     func drawWithContext(context: CGContext) {
         
         let x = self.location.x
