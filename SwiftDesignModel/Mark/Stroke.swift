@@ -36,23 +36,18 @@ class Stroke: Mark {
     }
     
     func removeMark(mark: Mark) {
-        
-//        if children_.contains(where: { (value) -> Bool in
-//            value as AnyObject === mark as AnyObject
-//        }) {
-//
-//            children_.remove(at: )
-//        } else {
-//
-//        }
+       
+        let removed = children_.remove(element: mark);
+        if(removed) {
+            
+        } else {
+            
+            for obj in children_ {
+                obj.removeMark(mark: mark)
+            }
+        }
     }
-    
-//    func childMarkAtIndex(index: Int) -> Mark? {
-//
-//    }
-//
-    
-    
+         
     
     /// 绘图
     ///

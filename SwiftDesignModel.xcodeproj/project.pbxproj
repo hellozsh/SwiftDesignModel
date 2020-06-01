@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A354A3452484A1C600A5F4F0 /* ArrayExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A354A3442484A1C600A5F4F0 /* ArrayExtention.swift */; };
 		A3C020492480B05E00C61CCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C020482480B05E00C61CCE /* AppDelegate.swift */; };
 		A3C0204B2480B05E00C61CCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0204A2480B05E00C61CCE /* SceneDelegate.swift */; };
 		A3C0204D2480B05E00C61CCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0204C2480B05E00C61CCE /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A354A3442484A1C600A5F4F0 /* ArrayExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtention.swift; sourceTree = "<group>"; };
 		A3C020452480B05E00C61CCE /* SwiftDesignModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C020482480B05E00C61CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3C0204A2480B05E00C61CCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A354A3432484A1A200A5F4F0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A354A3442484A1C600A5F4F0 /* ArrayExtention.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		A3C0203C2480B05E00C61CCE = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 				A3C020482480B05E00C61CCE /* AppDelegate.swift */,
 				A3C0204A2480B05E00C61CCE /* SceneDelegate.swift */,
 				A3C0204C2480B05E00C61CCE /* ViewController.swift */,
+				A354A3432484A1A200A5F4F0 /* Extension */,
 				A3C020652480F24000C61CCE /* Mark */,
 				A3C0205C2480DE4700C61CCE /* Controller */,
 				A3C0204E2480B05E00C61CCE /* Main.storyboard */,
@@ -178,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A354A3452484A1C600A5F4F0 /* ArrayExtention.swift in Sources */,
 				A3C020672480F43600C61CCE /* Mark.swift in Sources */,
 				A3C0205E2480DE6400C61CCE /* CanvasViewController.swift in Sources */,
 				A3C020692480F45F00C61CCE /* Vertex.swift in Sources */,
