@@ -16,6 +16,15 @@
 		A35A7C402485F8A500965EDF /* CanvasViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C3F2485F8A500965EDF /* CanvasViewGenerator.swift */; };
 		A35A7C422485F94500965EDF /* PaperCanvasViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C412485F94500965EDF /* PaperCanvasViewGenerator.swift */; };
 		A35A7C442485FA6900965EDF /* ClothCanvasViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C432485FA6900965EDF /* ClothCanvasViewGenerator.swift */; };
+		A35A7C472486240200965EDF /* BrandingFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C462486240200965EDF /* BrandingFactory.swift */; };
+		A35A7C492486252300965EDF /* AcmeBrandingFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C482486252300965EDF /* AcmeBrandingFactory.swift */; };
+		A35A7C4B2486253900965EDF /* SierraBrandingFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C4A2486253900965EDF /* SierraBrandingFactory.swift */; };
+		A35A7C4E24862B3100965EDF /* AcmeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C4D24862B3100965EDF /* AcmeView.swift */; };
+		A35A7C5024862B3D00965EDF /* AcmeMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C4F24862B3D00965EDF /* AcmeMainButton.swift */; };
+		A35A7C5224862B4A00965EDF /* AcmeToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C5124862B4A00965EDF /* AcmeToolBar.swift */; };
+		A35A7C5424862B8B00965EDF /* SierraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C5324862B8B00965EDF /* SierraView.swift */; };
+		A35A7C5624862B9800965EDF /* SierraMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C5524862B9800965EDF /* SierraMainButton.swift */; };
+		A35A7C5824862BA200965EDF /* SierraToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C5724862BA200965EDF /* SierraToolbar.swift */; };
 		A3C020492480B05E00C61CCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C020482480B05E00C61CCE /* AppDelegate.swift */; };
 		A3C0204B2480B05E00C61CCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0204A2480B05E00C61CCE /* SceneDelegate.swift */; };
 		A3C0204D2480B05E00C61CCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0204C2480B05E00C61CCE /* ViewController.swift */; };
@@ -42,6 +51,15 @@
 		A35A7C3F2485F8A500965EDF /* CanvasViewGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewGenerator.swift; sourceTree = "<group>"; };
 		A35A7C412485F94500965EDF /* PaperCanvasViewGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperCanvasViewGenerator.swift; sourceTree = "<group>"; };
 		A35A7C432485FA6900965EDF /* ClothCanvasViewGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothCanvasViewGenerator.swift; sourceTree = "<group>"; };
+		A35A7C462486240200965EDF /* BrandingFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandingFactory.swift; sourceTree = "<group>"; };
+		A35A7C482486252300965EDF /* AcmeBrandingFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcmeBrandingFactory.swift; sourceTree = "<group>"; };
+		A35A7C4A2486253900965EDF /* SierraBrandingFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SierraBrandingFactory.swift; sourceTree = "<group>"; };
+		A35A7C4D24862B3100965EDF /* AcmeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcmeView.swift; sourceTree = "<group>"; };
+		A35A7C4F24862B3D00965EDF /* AcmeMainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcmeMainButton.swift; sourceTree = "<group>"; };
+		A35A7C5124862B4A00965EDF /* AcmeToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcmeToolBar.swift; sourceTree = "<group>"; };
+		A35A7C5324862B8B00965EDF /* SierraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SierraView.swift; sourceTree = "<group>"; };
+		A35A7C5524862B9800965EDF /* SierraMainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SierraMainButton.swift; sourceTree = "<group>"; };
+		A35A7C5724862BA200965EDF /* SierraToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SierraToolbar.swift; sourceTree = "<group>"; };
 		A3C020452480B05E00C61CCE /* SwiftDesignModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C020482480B05E00C61CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3C0204A2480B05E00C61CCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,14 +116,38 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		A35A7C3E2485F88000965EDF /* factory */ = {
+		A35A7C3E2485F88000965EDF /* Factory */ = {
 			isa = PBXGroup;
 			children = (
 				A35A7C3F2485F8A500965EDF /* CanvasViewGenerator.swift */,
 				A35A7C412485F94500965EDF /* PaperCanvasViewGenerator.swift */,
 				A35A7C432485FA6900965EDF /* ClothCanvasViewGenerator.swift */,
 			);
-			path = factory;
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		A35A7C452486239200965EDF /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				A35A7C4C24862B1400965EDF /* View */,
+				A35A7C462486240200965EDF /* BrandingFactory.swift */,
+				A35A7C482486252300965EDF /* AcmeBrandingFactory.swift */,
+				A35A7C4A2486253900965EDF /* SierraBrandingFactory.swift */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		A35A7C4C24862B1400965EDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A35A7C4D24862B3100965EDF /* AcmeView.swift */,
+				A35A7C4F24862B3D00965EDF /* AcmeMainButton.swift */,
+				A35A7C5124862B4A00965EDF /* AcmeToolBar.swift */,
+				A35A7C5324862B8B00965EDF /* SierraView.swift */,
+				A35A7C5524862B9800965EDF /* SierraMainButton.swift */,
+				A35A7C5724862BA200965EDF /* SierraToolbar.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A3C0203C2480B05E00C61CCE = {
@@ -133,7 +175,8 @@
 				A354A3432484A1A200A5F4F0 /* Extension */,
 				A3C020652480F24000C61CCE /* Mark */,
 				A35A7C322485F25500965EDF /* View */,
-				A35A7C3E2485F88000965EDF /* factory */,
+				A35A7C452486239200965EDF /* AbstractFactory */,
+				A35A7C3E2485F88000965EDF /* Factory */,
 				A3C0205C2480DE4700C61CCE /* Controller */,
 				A35A7C392485F56500965EDF /* Resource */,
 				A3C0204E2480B05E00C61CCE /* Main.storyboard */,
@@ -241,21 +284,30 @@
 			files = (
 				A35A7C422485F94500965EDF /* PaperCanvasViewGenerator.swift in Sources */,
 				A35A7C442485FA6900965EDF /* ClothCanvasViewGenerator.swift in Sources */,
+				A35A7C5424862B8B00965EDF /* SierraView.swift in Sources */,
 				A354A3452484A1C600A5F4F0 /* ArrayExtention.swift in Sources */,
+				A35A7C472486240200965EDF /* BrandingFactory.swift in Sources */,
 				A3C020672480F43600C61CCE /* Mark.swift in Sources */,
 				A35A7C402485F8A500965EDF /* CanvasViewGenerator.swift in Sources */,
 				A35A7C342485F26C00965EDF /* CanvasView.swift in Sources */,
+				A35A7C4B2486253900965EDF /* SierraBrandingFactory.swift in Sources */,
 				A35A7C382485F2DF00965EDF /* ClothCanvasView.swift in Sources */,
 				A3C0205E2480DE6400C61CCE /* CanvasViewController.swift in Sources */,
+				A35A7C4E24862B3100965EDF /* AcmeView.swift in Sources */,
 				A3C020692480F45F00C61CCE /* Vertex.swift in Sources */,
+				A35A7C5024862B3D00965EDF /* AcmeMainButton.swift in Sources */,
+				A35A7C5224862B4A00965EDF /* AcmeToolBar.swift in Sources */,
 				A35A7C362485F29F00965EDF /* PaperCanvasView.swift in Sources */,
+				A35A7C492486252300965EDF /* AcmeBrandingFactory.swift in Sources */,
 				A3C0206B2480F48900C61CCE /* Dot.swift in Sources */,
 				A3C0206D2480F4CD00C61CCE /* Stroke.swift in Sources */,
 				A3C020602480DE8800C61CCE /* PaletteViewController.swift in Sources */,
+				A35A7C5824862BA200965EDF /* SierraToolbar.swift in Sources */,
 				A3C0204D2480B05E00C61CCE /* ViewController.swift in Sources */,
 				A3C020642480DED400C61CCE /* CoordinatingViewController.swift in Sources */,
 				A3C020492480B05E00C61CCE /* AppDelegate.swift in Sources */,
 				A3C0204B2480B05E00C61CCE /* SceneDelegate.swift in Sources */,
+				A35A7C5624862B9800965EDF /* SierraMainButton.swift in Sources */,
 				A3C020622480DEAC00C61CCE /* ThumbnailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
