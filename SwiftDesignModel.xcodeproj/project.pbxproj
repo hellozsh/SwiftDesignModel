@@ -25,6 +25,10 @@
 		A35A7C5424862B8B00965EDF /* SierraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C5324862B8B00965EDF /* SierraView.swift */; };
 		A35A7C5624862B9800965EDF /* SierraMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C5524862B9800965EDF /* SierraMainButton.swift */; };
 		A35A7C5824862BA200965EDF /* SierraToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C5724862BA200965EDF /* SierraToolbar.swift */; };
+		A35A7C5B2486431200965EDF /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C5A2486431200965EDF /* Character.swift */; };
+		A35A7C5D248643B300965EDF /* CharacterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C5C248643B300965EDF /* CharacterBuilder.swift */; };
+		A35A7C5F248645F200965EDF /* StandardCharacterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C5E248645F200965EDF /* StandardCharacterBuilder.swift */; };
+		A35A7C61248647CC00965EDF /* ChasingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C60248647CC00965EDF /* ChasingGame.swift */; };
 		A3C020492480B05E00C61CCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C020482480B05E00C61CCE /* AppDelegate.swift */; };
 		A3C0204B2480B05E00C61CCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0204A2480B05E00C61CCE /* SceneDelegate.swift */; };
 		A3C0204D2480B05E00C61CCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0204C2480B05E00C61CCE /* ViewController.swift */; };
@@ -60,6 +64,10 @@
 		A35A7C5324862B8B00965EDF /* SierraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SierraView.swift; sourceTree = "<group>"; };
 		A35A7C5524862B9800965EDF /* SierraMainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SierraMainButton.swift; sourceTree = "<group>"; };
 		A35A7C5724862BA200965EDF /* SierraToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SierraToolbar.swift; sourceTree = "<group>"; };
+		A35A7C5A2486431200965EDF /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		A35A7C5C248643B300965EDF /* CharacterBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterBuilder.swift; sourceTree = "<group>"; };
+		A35A7C5E248645F200965EDF /* StandardCharacterBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardCharacterBuilder.swift; sourceTree = "<group>"; };
+		A35A7C60248647CC00965EDF /* ChasingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChasingGame.swift; sourceTree = "<group>"; };
 		A3C020452480B05E00C61CCE /* SwiftDesignModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C020482480B05E00C61CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3C0204A2480B05E00C61CCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +158,17 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A35A7C59248642B400965EDF /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				A35A7C5A2486431200965EDF /* Character.swift */,
+				A35A7C5C248643B300965EDF /* CharacterBuilder.swift */,
+				A35A7C5E248645F200965EDF /* StandardCharacterBuilder.swift */,
+				A35A7C60248647CC00965EDF /* ChasingGame.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
 		A3C0203C2480B05E00C61CCE = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +194,7 @@
 				A354A3432484A1A200A5F4F0 /* Extension */,
 				A3C020652480F24000C61CCE /* Mark */,
 				A35A7C322485F25500965EDF /* View */,
+				A35A7C59248642B400965EDF /* Builder */,
 				A35A7C452486239200965EDF /* AbstractFactory */,
 				A35A7C3E2485F88000965EDF /* Factory */,
 				A3C0205C2480DE4700C61CCE /* Controller */,
@@ -283,10 +303,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A35A7C422485F94500965EDF /* PaperCanvasViewGenerator.swift in Sources */,
+				A35A7C61248647CC00965EDF /* ChasingGame.swift in Sources */,
 				A35A7C442485FA6900965EDF /* ClothCanvasViewGenerator.swift in Sources */,
 				A35A7C5424862B8B00965EDF /* SierraView.swift in Sources */,
 				A354A3452484A1C600A5F4F0 /* ArrayExtention.swift in Sources */,
+				A35A7C5D248643B300965EDF /* CharacterBuilder.swift in Sources */,
 				A35A7C472486240200965EDF /* BrandingFactory.swift in Sources */,
+				A35A7C5F248645F200965EDF /* StandardCharacterBuilder.swift in Sources */,
 				A3C020672480F43600C61CCE /* Mark.swift in Sources */,
 				A35A7C402485F8A500965EDF /* CanvasViewGenerator.swift in Sources */,
 				A35A7C342485F26C00965EDF /* CanvasView.swift in Sources */,
@@ -305,6 +328,7 @@
 				A35A7C5824862BA200965EDF /* SierraToolbar.swift in Sources */,
 				A3C0204D2480B05E00C61CCE /* ViewController.swift in Sources */,
 				A3C020642480DED400C61CCE /* CoordinatingViewController.swift in Sources */,
+				A35A7C5B2486431200965EDF /* Character.swift in Sources */,
 				A3C020492480B05E00C61CCE /* AppDelegate.swift in Sources */,
 				A3C0204B2480B05E00C61CCE /* SceneDelegate.swift in Sources */,
 				A35A7C5624862B9800965EDF /* SierraMainButton.swift in Sources */,
