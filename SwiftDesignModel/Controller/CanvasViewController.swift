@@ -10,12 +10,24 @@ import UIKit
 
 class CanvasViewController: UIViewController {
 
+    var _canvasView: CanvasView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
- 
-        UIGraphicsGetCurrentContext()
-        // Do any additional setup after loading the view.
+  
+        loadCanvasView(with: CanvasViewGenerator())
     }
+    
+    func loadCanvasView(with generator: CanvasViewGenerator) {
+        
+        _canvasView?.removeFromSuperview()
+        let aframe = CGRect(x: 0,y: 0,width: 320,height: 436)
+        _canvasView = generator.canvasView(with: aframe)
+        self.view.addSubview(_canvasView!)
+    }
+    
+    
+    
     
     
     

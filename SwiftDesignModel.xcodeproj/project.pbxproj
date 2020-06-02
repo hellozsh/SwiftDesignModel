@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A354A3452484A1C600A5F4F0 /* ArrayExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A354A3442484A1C600A5F4F0 /* ArrayExtention.swift */; };
+		A35A7C342485F26C00965EDF /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C332485F26C00965EDF /* CanvasView.swift */; };
+		A35A7C362485F29F00965EDF /* PaperCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C352485F29F00965EDF /* PaperCanvasView.swift */; };
+		A35A7C382485F2DF00965EDF /* ClothCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C372485F2DF00965EDF /* ClothCanvasView.swift */; };
+		A35A7C3C2485F6DE00965EDF /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = A35A7C3A2485F6DE00965EDF /* paper.png */; };
+		A35A7C3D2485F6DE00965EDF /* cloth.png in Resources */ = {isa = PBXBuildFile; fileRef = A35A7C3B2485F6DE00965EDF /* cloth.png */; };
+		A35A7C402485F8A500965EDF /* CanvasViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C3F2485F8A500965EDF /* CanvasViewGenerator.swift */; };
+		A35A7C422485F94500965EDF /* PaperCanvasViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C412485F94500965EDF /* PaperCanvasViewGenerator.swift */; };
+		A35A7C442485FA6900965EDF /* ClothCanvasViewGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C432485FA6900965EDF /* ClothCanvasViewGenerator.swift */; };
 		A3C020492480B05E00C61CCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C020482480B05E00C61CCE /* AppDelegate.swift */; };
 		A3C0204B2480B05E00C61CCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0204A2480B05E00C61CCE /* SceneDelegate.swift */; };
 		A3C0204D2480B05E00C61CCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C0204C2480B05E00C61CCE /* ViewController.swift */; };
@@ -26,6 +34,14 @@
 
 /* Begin PBXFileReference section */
 		A354A3442484A1C600A5F4F0 /* ArrayExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtention.swift; sourceTree = "<group>"; };
+		A35A7C332485F26C00965EDF /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		A35A7C352485F29F00965EDF /* PaperCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperCanvasView.swift; sourceTree = "<group>"; };
+		A35A7C372485F2DF00965EDF /* ClothCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothCanvasView.swift; sourceTree = "<group>"; };
+		A35A7C3A2485F6DE00965EDF /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		A35A7C3B2485F6DE00965EDF /* cloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloth.png; sourceTree = "<group>"; };
+		A35A7C3F2485F8A500965EDF /* CanvasViewGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewGenerator.swift; sourceTree = "<group>"; };
+		A35A7C412485F94500965EDF /* PaperCanvasViewGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperCanvasViewGenerator.swift; sourceTree = "<group>"; };
+		A35A7C432485FA6900965EDF /* ClothCanvasViewGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothCanvasViewGenerator.swift; sourceTree = "<group>"; };
 		A3C020452480B05E00C61CCE /* SwiftDesignModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C020482480B05E00C61CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3C0204A2480B05E00C61CCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +79,35 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		A35A7C322485F25500965EDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A35A7C332485F26C00965EDF /* CanvasView.swift */,
+				A35A7C352485F29F00965EDF /* PaperCanvasView.swift */,
+				A35A7C372485F2DF00965EDF /* ClothCanvasView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A35A7C392485F56500965EDF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A35A7C3B2485F6DE00965EDF /* cloth.png */,
+				A35A7C3A2485F6DE00965EDF /* paper.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A35A7C3E2485F88000965EDF /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				A35A7C3F2485F8A500965EDF /* CanvasViewGenerator.swift */,
+				A35A7C412485F94500965EDF /* PaperCanvasViewGenerator.swift */,
+				A35A7C432485FA6900965EDF /* ClothCanvasViewGenerator.swift */,
+			);
+			path = factory;
+			sourceTree = "<group>";
+		};
 		A3C0203C2480B05E00C61CCE = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +132,10 @@
 				A3C0204C2480B05E00C61CCE /* ViewController.swift */,
 				A354A3432484A1A200A5F4F0 /* Extension */,
 				A3C020652480F24000C61CCE /* Mark */,
+				A35A7C322485F25500965EDF /* View */,
+				A35A7C3E2485F88000965EDF /* factory */,
 				A3C0205C2480DE4700C61CCE /* Controller */,
+				A35A7C392485F56500965EDF /* Resource */,
 				A3C0204E2480B05E00C61CCE /* Main.storyboard */,
 				A3C020512480B05F00C61CCE /* Assets.xcassets */,
 				A3C020532480B05F00C61CCE /* LaunchScreen.storyboard */,
@@ -176,7 +224,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35A7C3C2485F6DE00965EDF /* paper.png in Resources */,
 				A3C020552480B05F00C61CCE /* LaunchScreen.storyboard in Resources */,
+				A35A7C3D2485F6DE00965EDF /* cloth.png in Resources */,
 				A3C020522480B05F00C61CCE /* Assets.xcassets in Resources */,
 				A3C020502480B05E00C61CCE /* Main.storyboard in Resources */,
 			);
@@ -189,10 +239,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35A7C422485F94500965EDF /* PaperCanvasViewGenerator.swift in Sources */,
+				A35A7C442485FA6900965EDF /* ClothCanvasViewGenerator.swift in Sources */,
 				A354A3452484A1C600A5F4F0 /* ArrayExtention.swift in Sources */,
 				A3C020672480F43600C61CCE /* Mark.swift in Sources */,
+				A35A7C402485F8A500965EDF /* CanvasViewGenerator.swift in Sources */,
+				A35A7C342485F26C00965EDF /* CanvasView.swift in Sources */,
+				A35A7C382485F2DF00965EDF /* ClothCanvasView.swift in Sources */,
 				A3C0205E2480DE6400C61CCE /* CanvasViewController.swift in Sources */,
 				A3C020692480F45F00C61CCE /* Vertex.swift in Sources */,
+				A35A7C362485F29F00965EDF /* PaperCanvasView.swift in Sources */,
 				A3C0206B2480F48900C61CCE /* Dot.swift in Sources */,
 				A3C0206D2480F4CD00C61CCE /* Stroke.swift in Sources */,
 				A3C020602480DE8800C61CCE /* PaletteViewController.swift in Sources */,
@@ -347,6 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9K78DAKYH4;
 				INFOPLIST_FILE = SwiftDesignModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -365,6 +422,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9K78DAKYH4;
 				INFOPLIST_FILE = SwiftDesignModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
