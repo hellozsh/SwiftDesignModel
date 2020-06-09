@@ -10,7 +10,7 @@ import Foundation
 
 /*
  生成器模式：
-   将一个复杂对的构建与它的表现分离，使得同样的构建过程可以创建不同的表现
+   将一个复杂对象的构建与它的表现分离，使得同样的构建过程可以创建不同的表现
  
   时序图
     aClient                                  aDirector          aConcreteBuilder

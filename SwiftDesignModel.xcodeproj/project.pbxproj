@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31CF99F24874C9B0043871E /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31CF99E24874C9B0043871E /* Singleton.swift */; };
+		A321C09B248F80F500C5E276 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321C09A248F80F500C5E276 /* Command.swift */; };
+		A321C09D248F816300C5E276 /* SetStrokeColorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321C09C248F816300C5E276 /* SetStrokeColorCommand.swift */; };
+		A321C09F248F826500C5E276 /* SetStrokeColorCommandDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321C09E248F826500C5E276 /* SetStrokeColorCommandDelegate.swift */; };
 		A354A3452484A1C600A5F4F0 /* ArrayExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A354A3442484A1C600A5F4F0 /* ArrayExtention.swift */; };
 		A35A7C342485F26C00965EDF /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C332485F26C00965EDF /* CanvasView.swift */; };
 		A35A7C362485F29F00965EDF /* PaperCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A7C352485F29F00965EDF /* PaperCanvasView.swift */; };
@@ -46,6 +50,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A31CF99E24874C9B0043871E /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		A321C09A248F80F500C5E276 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		A321C09C248F816300C5E276 /* SetStrokeColorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetStrokeColorCommand.swift; sourceTree = "<group>"; };
+		A321C09E248F826500C5E276 /* SetStrokeColorCommandDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetStrokeColorCommandDelegate.swift; sourceTree = "<group>"; };
 		A354A3442484A1C600A5F4F0 /* ArrayExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtention.swift; sourceTree = "<group>"; };
 		A35A7C332485F26C00965EDF /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		A35A7C352485F29F00965EDF /* PaperCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperCanvasView.swift; sourceTree = "<group>"; };
@@ -97,6 +105,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A31CF99C24874C500043871E /* Creater */ = {
+			isa = PBXGroup;
+			children = (
+				A31CF99D24874C870043871E /* Single */,
+				A35A7C3E2485F88000965EDF /* Factory */,
+				A35A7C452486239200965EDF /* AbstractFactory */,
+				A35A7C59248642B400965EDF /* Builder */,
+			);
+			path = Creater;
+			sourceTree = "<group>";
+		};
+		A31CF99D24874C870043871E /* Single */ = {
+			isa = PBXGroup;
+			children = (
+				A31CF99E24874C9B0043871E /* Singleton.swift */,
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
+		A321C06F248F750800C5E276 /*  InterfaceAdaptation */ = {
+			isa = PBXGroup;
+			children = (
+				A321C070248F754800C5E276 /* Adaptation */,
+			);
+			path = " InterfaceAdaptation";
+			sourceTree = "<group>";
+		};
+		A321C070248F754800C5E276 /* Adaptation */ = {
+			isa = PBXGroup;
+			children = (
+				A321C09A248F80F500C5E276 /* Command.swift */,
+				A321C09C248F816300C5E276 /* SetStrokeColorCommand.swift */,
+				A321C09E248F826500C5E276 /* SetStrokeColorCommandDelegate.swift */,
+			);
+			path = Adaptation;
+			sourceTree = "<group>";
+		};
 		A354A3432484A1A200A5F4F0 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,12 +236,11 @@
 				A3C020482480B05E00C61CCE /* AppDelegate.swift */,
 				A3C0204A2480B05E00C61CCE /* SceneDelegate.swift */,
 				A3C0204C2480B05E00C61CCE /* ViewController.swift */,
+				A321C06F248F750800C5E276 /*  InterfaceAdaptation */,
 				A354A3432484A1A200A5F4F0 /* Extension */,
 				A3C020652480F24000C61CCE /* Mark */,
+				A31CF99C24874C500043871E /* Creater */,
 				A35A7C322485F25500965EDF /* View */,
-				A35A7C59248642B400965EDF /* Builder */,
-				A35A7C452486239200965EDF /* AbstractFactory */,
-				A35A7C3E2485F88000965EDF /* Factory */,
 				A3C0205C2480DE4700C61CCE /* Controller */,
 				A35A7C392485F56500965EDF /* Resource */,
 				A3C0204E2480B05E00C61CCE /* Main.storyboard */,
@@ -322,6 +366,9 @@
 				A35A7C5224862B4A00965EDF /* AcmeToolBar.swift in Sources */,
 				A35A7C362485F29F00965EDF /* PaperCanvasView.swift in Sources */,
 				A35A7C492486252300965EDF /* AcmeBrandingFactory.swift in Sources */,
+				A321C09D248F816300C5E276 /* SetStrokeColorCommand.swift in Sources */,
+				A321C09F248F826500C5E276 /* SetStrokeColorCommandDelegate.swift in Sources */,
+				A321C09B248F80F500C5E276 /* Command.swift in Sources */,
 				A3C0206B2480F48900C61CCE /* Dot.swift in Sources */,
 				A3C0206D2480F4CD00C61CCE /* Stroke.swift in Sources */,
 				A3C020602480DE8800C61CCE /* PaletteViewController.swift in Sources */,
@@ -331,6 +378,7 @@
 				A35A7C5B2486431200965EDF /* Character.swift in Sources */,
 				A3C020492480B05E00C61CCE /* AppDelegate.swift in Sources */,
 				A3C0204B2480B05E00C61CCE /* SceneDelegate.swift in Sources */,
+				A31CF99F24874C9B0043871E /* Singleton.swift in Sources */,
 				A35A7C5624862B9800965EDF /* SierraMainButton.swift in Sources */,
 				A3C020622480DEAC00C61CCE /* ThumbnailViewController.swift in Sources */,
 			);

@@ -12,6 +12,8 @@ class CanvasViewController: UIViewController {
 
     var _canvasView: CanvasView?
     
+    var strokeColor: UIColor?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
   

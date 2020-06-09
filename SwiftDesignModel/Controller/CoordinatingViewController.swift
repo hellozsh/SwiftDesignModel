@@ -15,6 +15,20 @@ import UIKit
 
 class CoordinatingViewController: UIViewController {
 
+    var canvasViewController: CanvasViewController?
+    
+    static let sharedInstance = CoordinatingViewController()
+    private init() {
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    internal required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        
+        print("CoordinatingViewController init?(coder: NSCoder)")
+    }
+     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
